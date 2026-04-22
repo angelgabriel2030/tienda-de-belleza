@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class HeroImage extends Model
 {
-    //
+    protected $fillable = ['slot', 'image_path'];
 }
